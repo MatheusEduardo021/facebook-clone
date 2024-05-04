@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+:root 
+{
+    --color-primary: #F0F2F5;
+    --logo-color: #0866FF;
+    --button-color: #36A420;
+    --bar-color: #dedfdf;
+}
+
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+    margin: auto;
+
+}
+
+.container img
+{
+    width: 100px;;
+}
+
+.dynamic-text
+{
+    display: none;
+}
+
+
+.login
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+
+.login input
+{
+    width: 400px;
+    padding: .5rem;
+    border: 1px solid var(--color-primary);
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 1px var(--bar-color);
+}
+
+
+
+
+.btn
+{
+    background-color: var(--logo-color);
+    color: var(--color-primary);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.forget-pass
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: auto 10px;
+}
+
+.forget-pass a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: auto 30px;
+    text-decoration: none;
+    color: var(--logo-color);
+}
+
+.register a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border: 1px solid var(--bar-color);
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.barrinha
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.bar
+{
+    display: flex;
+    border: 1px solid var(--bar-color);
+    width: 106px;
+    height: 1px;
+}
+
+.footer a
+{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #565555;
+
+}
+
+.links
+{
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.about
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
